@@ -201,9 +201,10 @@ php artisan serve --host 0.0.0.0 --port 8000
 ```
 
 ### Rotas disponíveis
-+--------+-----------+-------------------------+------------------+------------------------------------------------+------------+
+
+
 | Domain | Method    | URI                     | Name             | Action                                         | Middleware |
-+--------+-----------+-------------------------+------------------+------------------------------------------------+------------+
+|--------|-----------|-------------------------|------------------|------------------------------------------------|------------|
 |        | GET|HEAD  | /                       |                  | Closure                                        | web        |
 |        | GET|HEAD  | api/user                |                  | Closure                                        | api        |
 |        |           |                         |                  |                                                | auth:api   |
@@ -214,4 +215,3 @@ php artisan serve --host 0.0.0.0 --port 8000
 |        | PUT|PATCH | clientes/{cliente}      | clientes.update  | App\Http\Controllers\ClienteController@update  | web        |
 |        | DELETE    | clientes/{cliente}      | clientes.destroy | App\Http\Controllers\ClienteController@destroy | web        |
 |        | GET|HEAD  | clientes/{cliente}/edit | clientes.edit    | App\Http\Controllers\ClienteController@edit    | web        |
-+--------+-----------+-------------------------+------------------+------------------------------------------------+------------+
