@@ -1,6 +1,12 @@
 # laravel8crud
 Operações de um CRUD com Laravel 8
 
+<img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/listar.png" alt="listar"  height="1870" width="1039">
+
+<img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/cadastrar.png" alt="listar"  height="912" width="555">
+
+<img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/alterar.png" alt="listar"  height="912" width="555">
+
 ### Requisitos
 PHP 7.3
 Laravel 8
