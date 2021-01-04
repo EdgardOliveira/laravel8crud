@@ -3,9 +3,9 @@ Operações de um CRUD com Laravel 8
 
 <img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/listar.png" alt="listar"  height="600" width="1000">
 
-<img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/cadastrar.png" alt="cadastrar"  height="912" width="555">
+<img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/cadastrar.png" alt="cadastrar"  height="600" width="1000">
 
-<img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/alterar.png" alt="alterar"  height="912" width="555">
+<img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/alterar.png" alt="alterar"  height="600" width="1000">
 
 ### Requisitos
 PHP 7.3
