@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea703e43-c0de-4689-afba-da2eed0a1f1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/scripts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/clientes/create.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/clientes/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clientes/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/clientes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clientes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/padrao.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/padrao.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sidebar.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="ea703e43-c0de-4689-afba-da2eed0a1f1d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +176,7 @@
       <workItem from="1600124645927" duration="71000" />
       <workItem from="1600134796813" duration="130000" />
       <workItem from="1600135112156" duration="1915000" />
-      <workItem from="1609792431664" duration="6822000" />
+      <workItem from="1609792431664" duration="7164000" />
     </task>
     <task id="LOCAL-00001" summary="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes.">
       <created>1600112891184</created>
