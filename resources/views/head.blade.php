@@ -1,6 +1,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="UTF8"/>
 
-<title>LARAVEL 8 CRUD</title>
+<title>CRUD com Laravel 8</title>
 
 <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport'/>
 

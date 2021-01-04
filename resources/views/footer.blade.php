@@ -2,7 +2,7 @@
     <nav class="pull-left">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="https://github.com/EdgardOliveira">
                     Edgard Oliveira
                 </a>
             </li>

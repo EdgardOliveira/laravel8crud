@@ -9,14 +9,14 @@
                                 </span>
                     <h4 class="text-section">Opções</h4>
                 </li>
-                <li class="nav-item active">
-                    <a href="index.php">
+                <li class="{{ request()->routeIs('index.*') ? 'nav-item active' : 'nav-item' }}">
+                    <a href="/index">
                         <i class="fas fa-home"></i>
                         <p>Início</p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="/clientes/">
+                <li class="{{ request()->routeIs('clientes.*') ? 'nav-item active' : 'nav-item' }}">
+                    <a href="/clientes">
                         <i class="fas fa-users"></i>
                         <p>Clientes</p>
                     </a>

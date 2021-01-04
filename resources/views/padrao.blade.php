@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     @include('head')
 </head>
@@ -36,5 +36,6 @@
     </div>
     <!-- Fim do conteúdo -->
 </div>
+@include('scripts')
 </body>
 </html>

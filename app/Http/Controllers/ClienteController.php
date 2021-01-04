@@ -54,7 +54,7 @@ class ClienteController extends Controller
         ]);
 
         $cliente->save();
-        return redirect('/clientes')->with('sucesso', 'Cliente salvo!');
+        return redirect('/clientes')->with('sucesso', 'Registro salvo com sucesso!');
     }
 
     /**
@@ -89,16 +89,16 @@ class ClienteController extends Controller
     public function update(Request $request, Cliente $cliente)
     {
         $request->validate([
-            'nome'=>'required',
-            'cpf_cnpj'=>'required',
-            'contato'=>'required',
-            'celular'=>'required',
-            'email'=>'required'
+            'nome'=>'required|min:3',
+            'cpf_cnpj'=>'required|min:11|max:14',
+            'contato'=>'required:min:3',
+            'celular'=>'required:9',
+            'email'=>'required:'
         ]);
 
         $cliente->update($request->all());
 
-        return redirect()->route('clientes.index')->with('successo', 'Cliente atualizado com sucesso!');
+        return redirect()->route('clientes.index')->with('sucesso', 'Registro atualizado com sucesso!');
     }
 
     /**
@@ -110,6 +110,6 @@ class ClienteController extends Controller
     public function destroy(Cliente $cliente)
     {
         $cliente->delete();
-        return redirect()->route('clientes.index')->with('successo', 'Cliente excluído com sucesso!');
+        return redirect()->route('clientes.index')->with('sucesso', 'Registro excluído com sucesso!');
     }
 }

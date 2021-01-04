@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea703e43-c0de-4689-afba-da2eed0a1f1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/scripts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clientes/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clientes/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clientes/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clientes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clientes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/padrao.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/padrao.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sidebar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,9 +150,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,6 +165,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Edgard\Documents\Github\Laravel\laravel8crud" />
       <recent name="C:\Users\neove\Documents\GitHub\laravel8crud\resources\views" />
     </key>
   </component>
@@ -176,6 +188,7 @@
       <workItem from="1600124645927" duration="71000" />
       <workItem from="1600134796813" duration="130000" />
       <workItem from="1600135112156" duration="1915000" />
+      <workItem from="1609792431664" duration="6822000" />
     </task>
     <task id="LOCAL-00001" summary="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes.">
       <created>1600112891184</created>
@@ -204,34 +217,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes." />
     <option name="LAST_COMMIT_MESSAGE" value="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="519" y="88" key="CommitChangelistDialog2" timestamp="1600136939317">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="519" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-338.-1080.2560.1040@0.0.1920.1040" timestamp="1600136939317" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600112250261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-338.-1080.2560.1040@0.0.1920.1040" timestamp="1600112250261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600112250261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-338.-1080.2560.1040@0.0.1920.1040" timestamp="1600112250261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600112250261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-338.-1080.2560.1040@0.0.1920.1040" timestamp="1600112250261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600112250261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-338.-1080.2560.1040@0.0.1920.1040" timestamp="1600112250261" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600136943849">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-338.-1080.2560.1040@0.0.1920.1040" timestamp="1600136943849" />
   </component>
 </project>
