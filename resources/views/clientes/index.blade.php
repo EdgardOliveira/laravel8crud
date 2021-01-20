@@ -1,7 +1,6 @@
 @extends('padrao')
 
 @section('content')
-
     @if (Session::has('sucesso'))
         <div class="alert alert-success">
             <p>{{Session::get('sucesso')}}</p>

@@ -4,6 +4,8 @@
     <list default="true" id="ea703e43-c0de-4689-afba-da2eed0a1f1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/clientes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/clientes/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +136,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hVgBYvAieV5qmcaiYtP2f0MQzg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -179,7 +182,10 @@
       <workItem from="1600124645927" duration="71000" />
       <workItem from="1600134796813" duration="130000" />
       <workItem from="1600135112156" duration="1915000" />
-      <workItem from="1609792431664" duration="7625000" />
+      <workItem from="1609792431664" duration="9914000" />
+      <workItem from="1609815924327" duration="1498000" />
+      <workItem from="1610581812637" duration="1108000" />
+      <workItem from="1611157023979" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes.">
       <created>1600112891184</created>
@@ -218,6 +224,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes." />
