@@ -26,7 +26,7 @@ class ClienteController extends Controller
      */
     public function create()
     {
-        return view('clientes.create');
+        //
     }
 
     /**
@@ -45,15 +45,8 @@ class ClienteController extends Controller
             'email'=>'required'
         ]);
 
-        $cliente = new Cliente([
-            'nome' => $request->get('nome'),
-            'cpf_cnpj' => $request->get('cpf_cnpj'),
-            'contato' => $request->get('contato'),
-            'celular' => $request->get('celular'),
-            'email' => $request->get('email')
-        ]);
+        Cliente::create($request->all());
 
-        $cliente->save();
         return redirect('/clientes')->with('sucesso', 'Registro salvo com sucesso!');
     }
 
@@ -65,7 +58,7 @@ class ClienteController extends Controller
      */
     public function show(Cliente $cliente)
     {
-        return view('clientes.show', compact('cliente'));
+        //
     }
 
     /**

@@ -1,5 +1,7 @@
 @extends('padrao')
 
+@section('titulo', 'Clientes')
+
 @section('content')
 
     @if ($errors->any())

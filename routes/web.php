@@ -15,7 +15,7 @@ use \App\Http\Controllers\ClienteController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::resource('clientes', ClienteController::class);

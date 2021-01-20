@@ -10,7 +10,7 @@
                     <h4 class="text-section">Opções</h4>
                 </li>
                 <li class="{{ request()->routeIs('index.*') ? 'nav-item active' : 'nav-item' }}">
-                    <a href="/index">
+                    <a href="/">
                         <i class="fas fa-home"></i>
                         <p>Início</p>
                     </a>

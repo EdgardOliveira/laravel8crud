@@ -1,5 +1,7 @@
 @extends('padrao')
 
+@section('titulo', 'Clientes')
+
 @section('content')
     @if (Session::has('sucesso'))
         <div class="alert alert-success">
@@ -84,8 +86,12 @@
                                                     <input type="email" required class="form-control" name="email"/>
                                                 </div>
                                                 <div class="modal-footer no-bd">
-                                                    <button type="submit" id="addRowButton" class="btn btn-primary">Enviar</button>
-                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                                    <button type="submit" id="addRowButton" class="btn btn-primary">
+                                                        Enviar
+                                                    </button>
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                        Fechar
+                                                    </button>
                                                 </div>
                                             </div>
                                         </form>
@@ -136,19 +142,19 @@
                                                    data-original-title="Editar">
                                                     <i class="fa fa-edit"></i>
                                                 </a>
+
+                                                <form action="{{ route('clientes.destroy', $cliente->id)}}"
+                                                      method="post">
+                                                    @csrf
+                                                    @method('DELETE')
+                                                    <button class="btn btn-link btn-danger btn-lg"
+                                                            data-toggle="tooltip"
+                                                            title=""
+                                                            data-original-title="Excluir">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                </form>
                                             </div>
-                                        </td>
-                                        <td>
-                                            <form action="{{ route('clientes.destroy', $cliente->id)}}" method="post">
-                                                @csrf
-                                                @method('DELETE')
-                                                <button class="btn btn-link btn-danger btn-lg"
-                                                        data-toggle="tooltip"
-                                                        title=""
-                                                        data-original-title="Excluir">
-                                                    <i class="fa fa-times"></i>
-                                                </button>
-                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach

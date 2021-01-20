@@ -37,5 +37,12 @@
     <!-- Fim do conteúdo -->
 </div>
 @include('scripts')
+
+<script>
+    @if (Session::has('sucesso'))
+    notificacao('Sucesso', "{{Session::get('sucesso')}}");
+    @endif
+</script>
+
 </body>
 </html>

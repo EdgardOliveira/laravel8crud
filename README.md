@@ -11,6 +11,7 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
 
+...
 
 ### Tópicos 
 
@@ -26,15 +27,19 @@
 
 ... 
 
-Insira os tópicos do README em links para facilitar a navegação do leitor
-
 ## Descrição do projeto 
 
 <p align="justify">
   Operações de um CRUD com Laravel 8.
+</p>
+<p align="justify">
   Este projeto, exemplifica as quatro operações sobre uma tabela no banco de dados (Cadastrar, Ler, Atualizar e Excluir).
+</p>
+<p align="justify">
   O Laravel possui recursos modernos e avançados para ajudar a criar de forma eficiente e rápida as entidades usando Migrações. Além disso, esse projeto aborda o controle da aplicação através de rotas, bem como a utilização de bootstrap 4 com um tema no estilo Dashboard chamado Atlantis Lite da Themekita. Para gerar as páginas (views) é utilizado o Blade para gerar páginas dinâmicas e re-aproveitáveis.
 </p>
+
+...
 
 ## Funcionalidades
 
@@ -58,9 +63,15 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 
 :heavy_check_mark: Aplicação de um tema do tipo Dashboard da Themekita chamada Atlantis Lite
 
+...
 
+## Live demo
+https://laravel8crud.herokuapp.com/clientes
+
+...
 
 ## Imagens do Layout da Aplicação
+
 
 <img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/listar.png" alt="listar"  height="500" width="1600">
 
@@ -68,7 +79,7 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 
 <img src="https://github.com/EdgardOliveira/laravel8crud/blob/master/imagens/alterar.png" alt="alterar"  height="500" width="1600">
 
-
+...
 ## Pré-requisitos
 
 :warning: [Composer](https://getcomposer.org/download/)
