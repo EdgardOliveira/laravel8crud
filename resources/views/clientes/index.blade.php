@@ -3,12 +3,6 @@
 @section('titulo', 'Clientes')
 
 @section('content')
-    @if (Session::has('sucesso'))
-        <div class="alert alert-success">
-            <p>{{Session::get('sucesso')}}</p>
-        </div>
-    @endif
-
     <div class="panel-header bg-dark-gradient">
         <div class="page-inner py-5">
             <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">

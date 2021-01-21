@@ -23,6 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        //Inclua essa configuração para que quando a aplicação estiver usando https em produção os assets sejam carregados com sucesso!
         if(config('app.env') === 'production') {
             \URL::forceScheme('https');
         }
