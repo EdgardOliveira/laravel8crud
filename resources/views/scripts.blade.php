@@ -35,5 +35,8 @@
 <!-- Atlantis JS -->
 <script src="{{ asset('assets/js/atlantis.min.js') }}"></script>
 
-<!-- Rotinas -->
+<!-- rotinas -->
 <script src="{{ asset('assets/js/rotinas.js') }}"></script>
+
+<!-- Geolocalizacao -->
+{{--<script src="{{ asset('assets/js/localizacao.js') }}"></script>--}}
