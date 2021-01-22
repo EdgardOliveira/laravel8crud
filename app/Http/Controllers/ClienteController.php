@@ -49,6 +49,8 @@ class ClienteController extends Controller
 
         Cliente::create($request->all());
 
+        registrarAcesso('clientes.store', $request);
+
         return redirect('/clientes')->with('sucesso', 'Registro salvo com sucesso!');
     }
 
@@ -95,6 +97,8 @@ class ClienteController extends Controller
 
         $cliente->update($request->all());
 
+        registrarAcesso('clientes.update', $request);
+
         return redirect()->route('clientes.index')->with('sucesso', 'Registro atualizado com sucesso!');
     }
 
@@ -104,9 +108,12 @@ class ClienteController extends Controller
      * @param \App\Models\Cliente $cliente
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Cliente $cliente)
+    public function destroy(Cliente $cliente, Request $request)
     {
         $cliente->delete();
+
+        registrarAcesso('clientes.destroy', $request);
+
         return redirect()->route('clientes.index')->with('sucesso', 'Registro excluído com sucesso!');
     }
 }
