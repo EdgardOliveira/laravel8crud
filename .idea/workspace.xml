@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea703e43-c0de-4689-afba-da2eed0a1f1d" name="Default Changelist" comment="fix:remoção de div com alerta e correções no form de atualização">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel8crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel8crud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="ea703e43-c0de-4689-afba-da2eed0a1f1d" name="Default Changelist" comment="fix:Correções em assets, index, controllers, etc">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c8f57aa7-c742-4392-aa7e-4f3974ebf152.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c8f57aa7-c742-4392-aa7e-4f3974ebf152.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_01_2021_13_20__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_01_2021_13_20__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +15,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -149,6 +138,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hVgBYvAieV5qmcaiYtP2f0MQzg" />
@@ -159,12 +151,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.data.extractors.current.export.id" value="CSV-Groovy.csv.groovy" />
-    <property name="database.data.extractors.current.id" value="CSV-Groovy.csv.groovy" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -181,9 +171,6 @@
       <recent name="C:\Users\Edgard\Documents\Github\Laravel\laravel8crud\resources\views" />
       <recent name="C:\Users\Edgard\Documents\Github\Laravel\laravel8crud" />
       <recent name="C:\Users\neove\Documents\GitHub\laravel8crud\resources\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Edgard\Documents\Github\Laravel\laravel8crud\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -209,9 +196,8 @@
       <workItem from="1609815924327" duration="1498000" />
       <workItem from="1610581812637" duration="1108000" />
       <workItem from="1611157023979" duration="2590000" />
-      <workItem from="1611163711303" duration="25443000" />
-      <workItem from="1611271624958" duration="22360000" />
-      <workItem from="1611344731373" duration="1676000" />
+      <workItem from="1611163711303" duration="4420000" />
+      <workItem from="1611353470257" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes.">
       <created>1600112891184</created>
@@ -248,14 +234,7 @@
       <option name="project" value="LOCAL" />
       <updated>1611165251583</updated>
     </task>
-    <task id="LOCAL-00006" summary="fix:remoção de div com alerta e correções no form de atualização">
-      <created>1611231666150</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1611231666150</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,19 +245,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="add-contador-visitas" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -288,7 +255,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add:Migrations, Controller, Model, Route, Listar Clientes, Cadastrar Clientes, Modificar cadastro de Clientes, Excluir Clientes." />
     <MESSAGE value="fix:Correções em assets, index, controllers, etc" />
-    <MESSAGE value="fix:remoção de div com alerta e correções no form de atualização" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:remoção de div com alerta e correções no form de atualização" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:Correções em assets, index, controllers, etc" />
   </component>
 </project>
