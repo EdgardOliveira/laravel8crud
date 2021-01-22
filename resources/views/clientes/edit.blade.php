@@ -62,6 +62,11 @@
                                 <label for="celular">Celular</label>
                                 <input type="text" required class="form-control" name="celular"
                                        value={{ $cliente->celular }} />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" required class="form-control" name="email"
+                                       value={{ $cliente->email }} />
                                 </br>
                                 <button type="submit" class="btn btn-primary">Atualizar</button>
                             </div>
